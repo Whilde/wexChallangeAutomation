@@ -11,15 +11,14 @@ public class LoginPage {
 
     WebDriver driverPage;
 
-    @FindBy(how = How.XPATH, using = "//form[@id = 'userName']//p[1]//input[@name = 'UserName']")
+    @FindBy(how = How.XPATH, using = "//form[@id = 'userName']//p[1]//input[@name = 'UserName']") 
     private WebElement userName;
 
-    @FindBy(how = How.XPATH, using = "//form[@id = 'userName']//p[2]//input[@name = 'Password']")
+    @FindBy(how = How.XPATH, using = "//form[@id = 'userName']//p[2]//input[@name = 'Password']") 
     private WebElement userPassword;
 
-    @FindBy(how = How.XPATH, using = "//form[@id = 'userName']//p[3]//input[@name = 'Login']")
+    @FindBy(how = How.XPATH, using = "//form[@id = 'userName']//p[3]//input[@name = 'Login']") 
     private WebElement loginButton;
-
 
 
     public LoginPage(WebDriver driver){
